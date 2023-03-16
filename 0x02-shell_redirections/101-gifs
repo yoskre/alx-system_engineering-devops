@@ -1,2 +1,0 @@
-#!/bin/bash
-find . -name "*" -printf '%f\n' | grep ".gif" | sed 's/.gif//g' | sort -g
